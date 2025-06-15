@@ -1,10 +1,9 @@
 <fable>
   <config font-family="Arial" />
-
   <property name="pontuacao" default="0" />
-  <property name="visitante" default="Aventureiro" />
-
-  <start />
+  <property name="visitante" default="Investigador" />
+  <page id="inicio" />
+  <agent id= "titulo x="50" y="60" text ="História de mistério">
   <middle />
   <ending />
 </fable>
