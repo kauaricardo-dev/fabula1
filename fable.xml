@@ -1,11 +1,13 @@
 <fable>
   <config font-family="Comic Neue" />
-  <property name="score" default="0" />
+  <property name="score" default="100" />
   <page id="inicio">
-    
-    <agent id="titulo" x="50" y="50" text="História de investigação" />
-    <agent id="botao" x="100" y="150" text="Começar" on_click="goToPage('pagina1')" />
-  
+     <agent id="imagem17" x="0" y="10" image="tech-bg-lab.png" />
+    <agent id="imagem18" x="480" y="055" image="tech-open.png" />
+    <agent id="titulo" x="50" y="50" text="História de investigação" color="white" />
+    <agent id="titulo2" x="0" y="250" text="Você vai ajudar uma familia a encontrar um familiar desaparecido" color="white" />
+    <agent id="botao" x="580" y="350" text="Começar" on_click="goToPage('pagina1')" color="white" />
+
   </page>
   <page id="pagina1">
      <agent id="imagem2" x="0" y="0" image="cemetery-noite-dark.png" />
@@ -19,6 +21,34 @@
      <agent id="imagem1" x="50" y="450" image="cemetery-bone-1.png" />
      <agent id="text" x="50" y="350" text="Foi encontrado um esqueleto desenterrado no cemiterio proximo ao local do desaparecimento" color="white" />
      <agent id="comecar" x="100" y="80" text="Investigar o cemitério" color = "white" />
+     <agent id="botao2" x="100" y="200" text="Procurar pistas" on_click="goToPage('pagina2')" color="white" />
      <agent id="voltar" x="100" y="150" text="Voltar" color = "white" on_click="goToPage('inicio')" />
+  </page>
+
+   <page id="pagina2">
+     <agent id="imagem55" x="0" y="0" image="cemetery-noite-dark.png" />
+     <agent id="imagem56" x="0" y="455" image="cemetery-tile-11.png" />
+     <agent id="imagem48" x="130" y="455" image="cemetery-tile-11.png" />
+     <agent id="imagem59" x="260" y="455" image="cemetery-tile-11.png" />
+     <agent id="imagem67" x="390" y="455" image="cemetery-tile-11.png" />
+     <agent id="imagem76" x="520" y="455" image="cemetery-tile-11.png" />
+     <agent id="imagem85" x="650" y="455" image="cemetery-tile-11.png" />
+     <agent id="imagem91" x="668" y="455" image="cemetery-tile-11.png" />
+     <agent id="imagem12" x="50" y="350" image="cemetery-sign.png" />
+     <agent id="comecar2" x="100" y="300" text="Encontrei pegadas que vão para a floresta" color = "white" />
+     <agent id="voltar1" x="100" y="150" text="Vamos para a floresta" color = "white" on_click="goToPage('pagina3')" />
+  </page>
+
+   <page id="pagina3">
+     <agent id="imagem545" x="0" y="10" image="forest-noite.png" />
+     <agent id="imagem565" x="0" y="405" image="cemetery-tile-11.png" />
+     <agent id="imagem485" x="130" y="405" image="cemetery-tile-11.png" />
+     <agent id="imagem595" x="260" y="405" image="cemetery-tile-11.png" />
+     <agent id="imagem675" x="390" y="405" image="cemetery-tile-11.png" />
+     <agent id="imagem765" x="520" y="405" image="cemetery-tile-11.png" />
+     <agent id="imagem855" x="650" y="405" image="cemetery-tile-11.png" />
+     <agent id="imagem915" x="668" y="405" image="cemetery-tile-11.png" />
+     <agent id="comecar24" x="100" y="300" text="Encontrei uma mala com roupas usadas e uma mensagem" color = "white" />
+     <agent id="voltar13" x="100" y="150" text="Caso encerrado" color = "white" on_click="goToPage('pagina3')" />
   </page>
 </fable>
