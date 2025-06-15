@@ -7,9 +7,16 @@
   
   </page>
   <page id="pagina1">
-    
-     <agent id="imagem1" x="50" y="450" image="cemetery-bone-1.png" />
      <agent id="imagem2" x="0" y="0" image="cemetery-noite-dark.png" />
+     <agent id="imagem3" x="0" y="455" image="cemetery-tile-11.png" />
+     <agent id="imagem4" x="130" y="455" image="cemetery-tile-11.png" />
+     <agent id="imagem5" x="260" y="455" image="cemetery-tile-11.png" />
+     <agent id="imagem6" x="390" y="455" image="cemetery-tile-11.png" />
+     <agent id="imagem7" x="520" y="455" image="cemetery-tile-11.png" />
+     <agent id="imagem8" x="650" y="455" image="cemetery-tile-11.png" />
+     <agent id="imagem9" x="668" y="455" image="cemetery-tile-11.png" />
+     <agent id="imagem1" x="50" y="450" image="cemetery-bone-1.png" />
+     <agent id="text" x="50" y="350" text="Foi encontrado um esqueleto desenterrado no cemiterio proximo ao local do desaparecimento" color="white" />
      <agent id="comecar" x="100" y="80" text="Investigar o cemitério" color = "white" />
      <agent id="voltar" x="100" y="150" text="Voltar" color = "white" on_click="goToPage('inicio')" />
   </page>
