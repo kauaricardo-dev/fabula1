@@ -8,7 +8,9 @@
   </page>
   <page id="pagina1">
     
-     <agent id="comecar" x="100" y="120" text="Investigar" on_click="goToPage('escolhaLocal')" />
-    <agent id="voltar" x="100" y="150" text="Voltar" on_click="goToPage('inicio')" />
+     <agent id="imagem1" x="50" y="450" image="cemetery-bone-1.png" />
+     <agent id="imagem2" x="0" y="0" image="cemetery-noite-dark.png" />
+     <agent id="comecar" x="100" y="80" text="Investigar o cemitério" color = "white" />
+     <agent id="voltar" x="100" y="150" text="Voltar" color = "white" on_click="goToPage('inicio')" />
   </page>
 </fable>
