@@ -2,6 +2,7 @@
   <config font-family="Comic Neue" />
   <property name="score" default="0" />
   <page id="inicio">
+    
     <agent id="titulo" x="50" y="50" text="História de investigação" />
     <agent id="botao" x="100" y="150" text="Começar" on_click="goToPage('pagina1')" />
   
