@@ -3,9 +3,11 @@
   <property name="score" default="100" />
   <page id="inicio">
      <agent id="imagem17" x="0" y="10" image="tech-bg-lab.png" />
-    <agent id="imagem18" x="480" y="055" image="tech-open.png" />
-    <agent id="titulo" x="50" y="50" text="História de investigação" color="white" />
-    <agent id="titulo2" x="0" y="250" text="Você vai ajudar uma familia a encontrar um familiar desaparecido" color="white" />
+     <agent id="imagem18" x="480" y="055" image="tech-open.png" />
+     <agent id="imagem187" x="20" y="270" image="tech-switchlock.png" />
+    <agent id="imagem1897" x="100" y="270" image="tech-switchunlocked.png" />
+     <agent id="titulo" x="50" y="50" text="História de investigação" color="white" />
+     <agent id="titulo2" x="0" y="230" text="Você vai ajudar uma familia a encontrar um familiar desaparecido" color="white" />
     <agent id="botao" x="580" y="350" text="Começar" on_click="goToPage('pagina1')" color="white" />
 
   </page>
@@ -35,8 +37,8 @@
      <agent id="imagem85" x="650" y="455" image="cemetery-tile-11.png" />
      <agent id="imagem91" x="668" y="455" image="cemetery-tile-11.png" />
      <agent id="imagem12" x="50" y="350" image="cemetery-sign.png" />
-     <agent id="comecar2" x="100" y="300" text="Encontrei pegadas que vão para a floresta" color = "white" />
-     <agent id="voltar1" x="100" y="150" text="Vamos para a floresta" color = "white" on_click="goToPage('pagina3')" />
+     <agent id="comecar2" x="100" y="300" text="Foram encontradas pegadas que vão para a floresta" color = "white" />
+     <agent id="voltar1" x="100" y="150" text="Ir para a floresta" color = "white" on_click="goToPage('pagina3')" />
   </page>
 
    <page id="pagina3">
