@@ -50,9 +50,9 @@
      <agent id="imagem765" x="520" y="405" image="cemetery-tile-11.png" />
      <agent id="imagem855" x="650" y="405" image="cemetery-tile-11.png" />
      <agent id="imagem915" x="668" y="405" image="cemetery-tile-11.png" />
-     <agent id="imagem124" x="400" y="350" image="forest-box.png" />
+     <agent id="imagem124" x="430" y="340" image="forest-box.png" />
      <agent id="imagem121" x="450" y="350" image="forest-bush-1.png" />
-     <agent id="comecar24" x="100" y="300" text="Encontrei uma caixa com roupas usadas e uma mensagem" color = "white" />
+     <agent id="comecar24" x="100" y="300" text="Encontrado uma caixa com roupas usadas e uma mensagem" color = "white" />
      <agent id="voltar13" x="100" y="150" text="Caso encerrado" color = "white" on_click="goToPage('pagina4')" />
   </page>
 
