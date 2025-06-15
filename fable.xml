@@ -1,9 +1,14 @@
 <fable>
-  <config font-family="Arial" />
-  <property name="pontuacao" default="0" />
-  <property name="visitante" default="Investigador" />
-  <page id="inicio" />
-  <agent id= "titulo x="50" y="60" text ="História de mistério">
-  <middle />
-  <ending />
+  <config font-family="Comic Neue" />
+  <property name="score" default="0" />
+  <page id="inicio">
+    <agent id="titulo" x="50" y="50" text="História de investigação" />
+    <agent id="botao" x="100" y="150" text="Começar" on_click="goToPage('pagina1')" />
+  
+  </page>
+  <page id="pagina1">
+    
+     <agent id="comecar" x="100" y="120" text="Investigar" on_click="goToPage('escolhaLocal')" />
+    <agent id="voltar" x="100" y="150" text="Voltar" on_click="goToPage('inicio')" />
+  </page>
 </fable>
