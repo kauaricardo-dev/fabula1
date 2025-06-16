@@ -2,25 +2,25 @@
   <config font-family="Comic Neue" />
   <property name="score" default="100" />
   <page id="inicio">
-     <agent id="imagem17" x="0" y="10" image="tech-bg-lab.png" />
-     <agent id="imagem18" x="480" y="055" image="tech-open.png" />
-     <agent id="imagem187" x="20" y="270" image="tech-switchlock.png" />
-    <agent id="imagem1897" x="100" y="270" image="tech-switchunlocked.png" />
+     <agent id="imagem1" x="0" y="10" image="tech-bg-lab.png" />
+     <agent id="imagem2" x="480" y="055" image="tech-open.png" />
+     <agent id="imagem3" x="20" y="270" image="tech-switchlock.png" />
+    <agent id="imagem4" x="100" y="270" image="tech-switchunlocked.png" />
      <agent id="titulo" x="50" y="50" text="História de investigação" color="white" />
      <agent id="titulo2" x="0" y="230" text="Uma familia procura um familiar desaparecido. Você vai ajudar a encontra-lo" color="white" />
     <agent id="botao" x="580" y="350" text="Começar" on_click="goToPage('pagina1')" color="white" />
 
   </page>
   <page id="pagina1">
-     <agent id="imagem2" x="0" y="0" image="cemetery-noite-dark.png" />
-     <agent id="imagem3" x="0" y="455" image="cemetery-tile-11.png" />
-     <agent id="imagem4" x="130" y="455" image="cemetery-tile-11.png" />
-     <agent id="imagem5" x="260" y="455" image="cemetery-tile-11.png" />
-     <agent id="imagem6" x="390" y="455" image="cemetery-tile-11.png" />
-     <agent id="imagem7" x="520" y="455" image="cemetery-tile-11.png" />
-     <agent id="imagem8" x="650" y="455" image="cemetery-tile-11.png" />
-     <agent id="imagem9" x="668" y="455" image="cemetery-tile-11.png" />
-     <agent id="imagem1" x="50" y="450" image="cemetery-bone-1.png" />
+     <agent id="imagem5" x="0" y="0" image="cemetery-noite-dark.png" />
+     <agent id="imagem6" x="0" y="455" image="cemetery-tile-11.png" />
+     <agent id="imagem7" x="130" y="455" image="cemetery-tile-11.png" />
+     <agent id="imagem8" x="260" y="455" image="cemetery-tile-11.png" />
+     <agent id="imagem9" x="390" y="455" image="cemetery-tile-11.png" />
+     <agent id="imagem10" x="520" y="455" image="cemetery-tile-11.png" />
+     <agent id="imagem11" x="650" y="455" image="cemetery-tile-11.png" />
+     <agent id="imagem12" x="668" y="455" image="cemetery-tile-11.png" />
+     <agent id="imagem13" x="50" y="450" image="cemetery-bone-1.png" />
      <agent id="text" x="50" y="350" text="Foi encontrado um esqueleto misterioso desenterrado no cemiterio proximo ao local do desaparecimento" color="white" />
      <agent id="comecar" x="100" y="80" text="Investigar o cemitério" color = "white" />
      <agent id="botao2" x="100" y="200" text="Procurar pistas" on_click="goToPage('pagina2')" color="white" />
@@ -28,50 +28,50 @@
   </page>
 
    <page id="pagina2">
-     <agent id="imagem55" x="0" y="0" image="cemetery-noite-dark.png" />
-     <agent id="imagem56" x="0" y="455" image="cemetery-tile-11.png" />
-     <agent id="imagem48" x="130" y="455" image="cemetery-tile-11.png" />
-     <agent id="imagem59" x="260" y="455" image="cemetery-tile-11.png" />
-     <agent id="imagem67" x="390" y="455" image="cemetery-tile-11.png" />
-     <agent id="imagem76" x="520" y="455" image="cemetery-tile-11.png" />
-     <agent id="imagem85" x="650" y="455" image="cemetery-tile-11.png" />
-     <agent id="imagem91" x="668" y="455" image="cemetery-tile-11.png" />
-     <agent id="imagem12" x="50" y="350" image="cemetery-sign.png" />
+     <agent id="imagem14" x="0" y="0" image="cemetery-noite-dark.png" />
+     <agent id="imagem15" x="0" y="455" image="cemetery-tile-11.png" />
+     <agent id="imagem16" x="130" y="455" image="cemetery-tile-11.png" />
+     <agent id="imagem17" x="260" y="455" image="cemetery-tile-11.png" />
+     <agent id="imagem18" x="390" y="455" image="cemetery-tile-11.png" />
+     <agent id="imagem19" x="520" y="455" image="cemetery-tile-11.png" />
+     <agent id="imagem20" x="650" y="455" image="cemetery-tile-11.png" />
+     <agent id="imagem21" x="668" y="455" image="cemetery-tile-11.png" />
+     <agent id="imagem22" x="50" y="350" image="cemetery-sign.png" />
      <agent id="comecar2" x="100" y="300" text="Foram encontradas pegadas que vão para a floresta" color = "white" />
      <agent id="voltar1" x="100" y="150" text="Ir para a floresta" color = "white" on_click="goToPage('pagina3')" />
   </page>
 
    <page id="pagina3">
-     <agent id="imagem545" x="0" y="10" image="forest-noite.png" />
-     <agent id="imagem565" x="0" y="405" image="cemetery-tile-11.png" />
-     <agent id="imagem485" x="130" y="405" image="cemetery-tile-11.png" />
-     <agent id="imagem595" x="260" y="405" image="cemetery-tile-11.png" />
-     <agent id="imagem675" x="390" y="405" image="cemetery-tile-11.png" />
-     <agent id="imagem765" x="520" y="405" image="cemetery-tile-11.png" />
-     <agent id="imagem855" x="650" y="405" image="cemetery-tile-11.png" />
-     <agent id="imagem915" x="668" y="405" image="cemetery-tile-11.png" />
-     <agent id="imagem124" x="447" y="340" image="forest-box.png" />
-     <agent id="imagem121" x="450" y="350" image="forest-bush-1.png" />
-     <agent id="imagem1217" x="150" y="350" image="forest-bush-1.png" />
-     <agent id="imagem1219" x="550" y="350" image="forest-bush-1.png" />
-     <agent id="comecar24" x="100" y="300" text="Encontrado uma caixa com roupas usadas e uma mensagem" color = "white" />
-     <agent id="voltar13" x="100" y="150" text="Caso encerrado" color = "white" on_click="goToPage('pagina4')" />
+     <agent id="imagem23" x="0" y="10" image="forest-noite.png" />
+     <agent id="imagem24" x="0" y="405" image="cemetery-tile-11.png" />
+     <agent id="imagem25" x="130" y="405" image="cemetery-tile-11.png" />
+     <agent id="imagem26" x="260" y="405" image="cemetery-tile-11.png" />
+     <agent id="imagem27" x="390" y="405" image="cemetery-tile-11.png" />
+     <agent id="imagem28" x="520" y="405" image="cemetery-tile-11.png" />
+     <agent id="imagem29" x="650" y="405" image="cemetery-tile-11.png" />
+     <agent id="imagem30" x="668" y="405" image="cemetery-tile-11.png" />
+     <agent id="imagem31" x="447" y="340" image="forest-box.png" />
+     <agent id="imagem32" x="450" y="350" image="forest-bush-1.png" />
+     <agent id="imagem33" x="150" y="350" image="forest-bush-1.png" />
+     <agent id="imagem34" x="550" y="350" image="forest-bush-1.png" />
+     <agent id="comecar3" x="100" y="300" text="Encontrado uma caixa com roupas usadas e uma mensagem" color = "white" />
+     <agent id="voltar3" x="100" y="150" text="Caso encerrado" color = "white" on_click="goToPage('pagina4')" />
   </page>
 
   <page id="pagina4">
-     <agent id="imagem5456" x="0" y="10" image="forest-noite.png" />
-     <agent id="imagem5656" x="0" y="405" image="cemetery-tile-11.png" />
-     <agent id="imagem4856" x="130" y="405" image="cemetery-tile-11.png" />
-     <agent id="imagem5956" x="260" y="405" image="cemetery-tile-11.png" />
-     <agent id="imagem6756" x="390" y="405" image="cemetery-tile-11.png" />
-     <agent id="imagem7656" x="520" y="405" image="cemetery-tile-11.png" />
-     <agent id="imagem8555" x="650" y="405" image="cemetery-tile-11.png" />
-     <agent id="imagem9156" x="668" y="405" image="cemetery-tile-11.png" />
-     <agent id="imagem1245" x="435" y="340" image="forest-box.png" />
-     <agent id="imagem1215" x="450" y="350" image="forest-bush-1.png" />
-     <agent id="imagem1214" x="150" y="350" image="forest-bush-1.png" />
-     <agent id="imagem1216" x="550" y="350" image="forest-bush-1.png" />
-     <agent id="comecar245" x="100" y="200" text="'Ganhei na loteria e estou partindo em busca de uma vida nova na Europa. Se encontrarem o esqueleto falso, não me procurem'" color = "white" />
+     <agent id="imagem35" x="0" y="10" image="forest-noite.png" />
+     <agent id="imagem36" x="0" y="405" image="cemetery-tile-11.png" />
+     <agent id="imagem37" x="130" y="405" image="cemetery-tile-11.png" />
+     <agent id="imagem38" x="260" y="405" image="cemetery-tile-11.png" />
+     <agent id="imagem39" x="390" y="405" image="cemetery-tile-11.png" />
+     <agent id="imagem40" x="520" y="405" image="cemetery-tile-11.png" />
+     <agent id="imagem41" x="650" y="405" image="cemetery-tile-11.png" />
+     <agent id="imagem42" x="668" y="405" image="cemetery-tile-11.png" />
+     <agent id="imagem43" x="435" y="340" image="forest-box.png" />
+     <agent id="imagem44" x="450" y="350" image="forest-bush-1.png" />
+     <agent id="imagem45" x="150" y="350" image="forest-bush-1.png" />
+     <agent id="imagem46" x="550" y="350" image="forest-bush-1.png" />
+     <agent id="comecar3" x="100" y="200" text="'Ganhei na loteria e estou partindo em busca de uma vida nova na Europa. Se encontrarem o esqueleto falso, não me procurem'" color = "white" />
     
   </page>
 </fable>
