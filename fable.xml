@@ -7,7 +7,7 @@
      <agent id="imagem187" x="20" y="270" image="tech-switchlock.png" />
     <agent id="imagem1897" x="100" y="270" image="tech-switchunlocked.png" />
      <agent id="titulo" x="50" y="50" text="História de investigação" color="white" />
-     <agent id="titulo2" x="0" y="230" text="Você vai ajudar uma familia a encontrar um familiar desaparecido" color="white" />
+     <agent id="titulo2" x="0" y="230" text="Uma familia procura um familiar desaparecido. Você vai ajudar a encontra-lo" color="white" />
     <agent id="botao" x="580" y="350" text="Começar" on_click="goToPage('pagina1')" color="white" />
 
   </page>
@@ -21,7 +21,7 @@
      <agent id="imagem8" x="650" y="455" image="cemetery-tile-11.png" />
      <agent id="imagem9" x="668" y="455" image="cemetery-tile-11.png" />
      <agent id="imagem1" x="50" y="450" image="cemetery-bone-1.png" />
-     <agent id="text" x="50" y="350" text="Foi encontrado um esqueleto desenterrado no cemiterio proximo ao local do desaparecimento" color="white" />
+     <agent id="text" x="50" y="350" text="Foi encontrado um esqueleto misterioso desenterrado no cemiterio proximo ao local do desaparecimento" color="white" />
      <agent id="comecar" x="100" y="80" text="Investigar o cemitério" color = "white" />
      <agent id="botao2" x="100" y="200" text="Procurar pistas" on_click="goToPage('pagina2')" color="white" />
      <agent id="voltar" x="100" y="150" text="Voltar" color = "white" on_click="goToPage('inicio')" />
@@ -71,7 +71,7 @@
      <agent id="imagem1215" x="450" y="350" image="forest-bush-1.png" />
      <agent id="imagem1214" x="150" y="350" image="forest-bush-1.png" />
      <agent id="imagem1216" x="550" y="350" image="forest-bush-1.png" />
-     <agent id="comecar245" x="100" y="200" text="'Ganhei na loteria e vou partir em busca de uma vida melhor na Europa. Se encontrarem o esqueleto falso, não me procurem'" color = "white" />
+     <agent id="comecar245" x="100" y="200" text="'Ganhei na loteria e estou partindo em busca de uma vida nova na Europa. Se encontrarem o esqueleto falso, não me procurem'" color = "white" />
     
   </page>
 </fable>
