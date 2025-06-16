@@ -40,6 +40,15 @@
      <agent id="comecar4" x="100" y="300" text="Testemunhas viram alguem com camisa vermelha passando no cemitério" color = "white" />
      <agent id="voltar4" x="100" y="150" text="Seguir em frente" color = "white" on_click="goToPage('pagina6')" />
   </page>
+
+   <page id="pagina6">
+     <agent id="imagem56" x="0" y="10" image="tech-bg-lab.png" />
+     <agent id="imagem57" x="480" y="055" image="tech-locked.png" />
+     <agent id="imagem58" x="20" y="270" image="tech-switchlock.png" />
+     <agent id="titulo5" x="50" y="50" text="História de investigação" color="white" />
+     <agent id="titulo6" x="0" y="230" text="A testemunha mentiu para você" color="white" />
+    <agent id="botao7" x="530" y="350" text="Continuar a investigação" on_click="goToPage('pagina1')" color="red" />
+   </page>
   
    <page id="pagina2">
      <agent id="imagem14" x="0" y="0" image="cemetery-noite-dark.png" />
@@ -55,6 +64,7 @@
      <agent id="voltar1" x="100" y="150" text="Ir para a floresta" color = "white" on_click="goToPage('pagina3')" />
   </page>
 
+    
    <page id="pagina3">
      <agent id="imagem23" x="0" y="10" image="forest-noite.png" />
      <agent id="imagem24" x="0" y="405" image="cemetery-tile-11.png" />
