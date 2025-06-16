@@ -71,8 +71,8 @@
      <agent id="imagem25" x="120" y="405" image="cemetery-tile-11.png" />
      <agent id="imagem26" x="230" y="405" image="cemetery-tile-11.png" />
      <agent id="imagem27" x="333" y="405" image="cemetery-tile-11.png" />
-     <agent id="imagem28" x="485" y="405" image="cemetery-tile-11.png" />
-     <agent id="imagem29" x="610" y="405" image="cemetery-tile-11.png" />
+     <agent id="imagem28" x="456" y="405" image="cemetery-tile-11.png" />
+     <agent id="imagem29" x="570" y="405" image="cemetery-tile-11.png" />
      <agent id="imagem30" x="668" y="405" image="cemetery-tile-11.png" />
      <agent id="imagem31" x="447" y="340" image="forest-box.png" />
      <agent id="imagem32" x="450" y="350" image="forest-bush-1.png" />
