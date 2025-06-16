@@ -14,11 +14,11 @@
   <page id="pagina1">
      <agent id="imagem5" x="0" y="0" image="cemetery-noite-dark.png" />
      <agent id="imagem6" x="0" y="455" image="cemetery-tile-11.png" />
-     <agent id="imagem7" x="130" y="455" image="cemetery-tile-11.png" />
-     <agent id="imagem8" x="260" y="455" image="cemetery-tile-11.png" />
-     <agent id="imagem9" x="370" y="455" image="cemetery-tile-11.png" />
-     <agent id="imagem10" x="500" y="455" image="cemetery-tile-11.png" />
-     <agent id="imagem11" x="630" y="455" image="cemetery-tile-11.png" />
+     <agent id="imagem7" x="115" y="455" image="cemetery-tile-11.png" />
+     <agent id="imagem8" x="240" y="455" image="cemetery-tile-11.png" />
+     <agent id="imagem9" x="355" y="455" image="cemetery-tile-11.png" />
+     <agent id="imagem10" x="455" y="455" image="cemetery-tile-11.png" />
+     <agent id="imagem11" x="580" y="455" image="cemetery-tile-11.png" />
      <agent id="imagem12" x="668" y="455" image="cemetery-tile-11.png" />
      <agent id="imagem13" x="50" y="450" image="cemetery-bone-1.png" />
      <agent id="text" x="50" y="350" text="Foi encontrado um esqueleto misterioso desenterrado no cemiterio proximo ao local do desaparecimento" color="white" />
@@ -30,11 +30,11 @@
    <page id="pagina5">
      <agent id="imagem47" x="0" y="0" image="cemetery-noite-dark.png" />
      <agent id="imagem48" x="0" y="455" image="cemetery-tile-11.png" />
-     <agent id="imagem49" x="130" y="455" image="cemetery-tile-11.png" />
+     <agent id="imagem49" x="115" y="455" image="cemetery-tile-11.png" />
      <agent id="imagem50" x="240" y="455" image="cemetery-tile-11.png" />
-     <agent id="imagem51" x="370" y="455" image="cemetery-tile-11.png" />
-     <agent id="imagem52" x="500" y="455" image="cemetery-tile-11.png" />
-     <agent id="imagem53" x="630" y="455" image="cemetery-tile-11.png" />
+     <agent id="imagem51" x="355" y="455" image="cemetery-tile-11.png" />
+     <agent id="imagem52" x="455" y="455" image="cemetery-tile-11.png" />
+     <agent id="imagem53" x="580" y="455" image="cemetery-tile-11.png" />
      <agent id="imagem54" x="668" y="455" image="cemetery-tile-11.png" />
      <agent id="imagem55" x="50" y="350" image="cemetery-sign.png" />
      <agent id="comecar4" x="100" y="300" text="Testemunhas viram alguem com camisa vermelha passando no cemitério" color = "white" />
@@ -53,11 +53,11 @@
    <page id="pagina2">
      <agent id="imagem14" x="0" y="0" image="cemetery-noite-dark.png" />
      <agent id="imagem15" x="0" y="455" image="cemetery-tile-11.png" />
-     <agent id="imagem16" x="130" y="455" image="cemetery-tile-11.png" />
-     <agent id="imagem17" x="240" y="455" image="cemetery-tile-11.png" />
+     <agent id="imagem16" x="120" y="455" image="cemetery-tile-11.png" />
+     <agent id="imagem17" x="245" y="455" image="cemetery-tile-11.png" />
      <agent id="imagem18" x="370" y="455" image="cemetery-tile-11.png" />
-     <agent id="imagem19" x="500" y="455" image="cemetery-tile-11.png" />
-     <agent id="imagem20" x="630" y="455" image="cemetery-tile-11.png" />
+     <agent id="imagem19" x="495" y="455" image="cemetery-tile-11.png" />
+     <agent id="imagem20" x="610" y="455" image="cemetery-tile-11.png" />
      <agent id="imagem21" x="668" y="455" image="cemetery-tile-11.png" />
      <agent id="imagem22" x="50" y="350" image="cemetery-sign.png" />
      <agent id="comecar2" x="100" y="300" text="Foram encontradas pegadas que vão para a floresta" color = "white" />
@@ -68,11 +68,11 @@
    <page id="pagina3">
      <agent id="imagem23" x="0" y="10" image="forest-noite.png" />
      <agent id="imagem24" x="0" y="405" image="cemetery-tile-11.png" />
-     <agent id="imagem25" x="130" y="405" image="cemetery-tile-11.png" />
-     <agent id="imagem26" x="240" y="405" image="cemetery-tile-11.png" />
-     <agent id="imagem27" x="370" y="405" image="cemetery-tile-11.png" />
-     <agent id="imagem28" x="500" y="405" image="cemetery-tile-11.png" />
-     <agent id="imagem29" x="630" y="405" image="cemetery-tile-11.png" />
+     <agent id="imagem25" x="120" y="405" image="cemetery-tile-11.png" />
+     <agent id="imagem26" x="230" y="405" image="cemetery-tile-11.png" />
+     <agent id="imagem27" x="359" y="405" image="cemetery-tile-11.png" />
+     <agent id="imagem28" x="485" y="405" image="cemetery-tile-11.png" />
+     <agent id="imagem29" x="610" y="405" image="cemetery-tile-11.png" />
      <agent id="imagem30" x="668" y="405" image="cemetery-tile-11.png" />
      <agent id="imagem31" x="447" y="340" image="forest-box.png" />
      <agent id="imagem32" x="450" y="350" image="forest-bush-1.png" />
@@ -85,11 +85,11 @@
   <page id="pagina4">
      <agent id="imagem35" x="0" y="10" image="forest-noite.png" />
      <agent id="imagem36" x="0" y="405" image="cemetery-tile-11.png" />
-     <agent id="imagem37" x="130" y="405" image="cemetery-tile-11.png" />
-     <agent id="imagem38" x="240" y="405" image="cemetery-tile-11.png" />
-     <agent id="imagem39" x="370" y="405" image="cemetery-tile-11.png" />
-     <agent id="imagem40" x="500" y="405" image="cemetery-tile-11.png" />
-     <agent id="imagem41" x="630" y="405" image="cemetery-tile-11.png" />
+     <agent id="imagem37" x="120" y="405" image="cemetery-tile-11.png" />
+     <agent id="imagem38" x="230" y="405" image="cemetery-tile-11.png" />
+     <agent id="imagem39" x="359" y="405" image="cemetery-tile-11.png" />
+     <agent id="imagem40" x="485" y="405" image="cemetery-tile-11.png" />
+     <agent id="imagem41" x="610" y="405" image="cemetery-tile-11.png" />
      <agent id="imagem42" x="668" y="405" image="cemetery-tile-11.png" />
      <agent id="imagem43" x="435" y="340" image="forest-box.png" />
      <agent id="imagem44" x="450" y="350" image="forest-bush-1.png" />
